@@ -113,8 +113,9 @@ final class CalendarExtension extends AbstractExtension
             case 'left_open':
             case 'left open':
                 return Interval::leftOpen();
+
             default:
-                throw new InvalidArgumentException("Invalid interval type: " . $interval);
+                throw new InvalidArgumentException('Invalid interval type: ' . $interval);
         }
     }
 
