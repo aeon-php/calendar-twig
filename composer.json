@@ -9,9 +9,9 @@
         "extension"
     ],
     "require": {
-        "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+        "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
         "aeon-php/calendar": "~1.0",
-        "twig/twig": "~2.10||~3"
+        "twig/twig": "^3.19"
     },
     "license": "MIT",
     "autoload": {
